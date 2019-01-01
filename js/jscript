@@ -1,0 +1,19 @@
+$(document).ready(function() {
+  $("form#math").submit(function(event) {
+    var angle = parseInt($("input#angle").val());
+    var triangle = pareseInt($("input#triangle").val());
+
+    if (angle) {
+      var angle = (180 - degree) * 3;
+      if (triangle === 'angle' && type < 90) {
+      }
+
+      $("#Triangle Type").empty().append(quote);
+      $("#type").show();
+    } else {
+      alert('Please enter the angles.');
+    }
+
+    event.preventDefault();
+  });
+});
