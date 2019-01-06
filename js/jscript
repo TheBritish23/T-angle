@@ -1,6 +1,8 @@
 $(document).ready(function() {
-  $("form#math").submit(function(event) {
-    var angle = parseInt($("input#angle").val());
+  $("form#triangle").submit(function(event) {
+    var angleOne = parseInt($("input#angle-one").val());
+    var angleTwo = parseInt($("input#angle-two").val());
+    var angleThree = parseInt($("input#angle-three").val());
     var triangle = pareseInt($("input#triangle").val());
 
     if (angle) {
