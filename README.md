@@ -1,6 +1,6 @@
 # _T-angle_
 
-#### _{Brief description of application}, 3/26/2020_
+#### _Using Triangle Logic to calculate the type of triangle, 3/26/2020_
 
 #### By _Soroush Azizi_
 
