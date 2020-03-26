@@ -1,3 +1,8 @@
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import './styles.css';
+
 $(document).ready(function() {
   $("form#triangle").submit(function(event) {
     var angleOne = parseInt($("input#angle-one").val());
