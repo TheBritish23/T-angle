@@ -1,0 +1,11 @@
+{
+  "name": "Journal",
+  "version": "1.0.0",
+  "description": "Jquery word find",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "npm run build & webpack-dev-server --open --mode development",
+    "lint": "eslint src/*.js",
+    "test": "jest --colors"
+  }
