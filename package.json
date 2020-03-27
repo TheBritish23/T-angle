@@ -1,11 +1,19 @@
 {
-  "name": "Journal",
+  "name": "T-angle",
   "version": "1.0.0",
-  "description": "Jquery word find",
+  "description": "Triangle logic",
   "main": "index.js",
-  "scripts": {,
+  "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build & webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
     "test": "jest --colors"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.39.3",
+    "webpack-cli": "^3.3.8"
   }
+}

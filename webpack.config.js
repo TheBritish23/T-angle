@@ -10,7 +10,7 @@ module.exports = {
   plugins: [
      new HtmlWebpackPlugin({
        title: 'T-angle',
-       template: './src/index.html',
+       template: './src/Index.html',
        inject: 'body'
      })
    ],
