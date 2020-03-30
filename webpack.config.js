@@ -12,10 +12,10 @@ module.exports = {
   },
   devtool: 'eval-source-map',
   devServer: {
-    contentBase: './dist'   
+    contentBase: './dist'
   },
   plugins: [
-     new UglifyJsPlugin(),
+     new UglifyJsPlugin({ sourceMap: true }),
      new CleanWebpackPlugin(),
      new HtmlWebpackPlugin({
        title: 'T-angle',
