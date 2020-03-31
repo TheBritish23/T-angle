@@ -17,7 +17,7 @@ module.exports = {
   plugins: [
      new UglifyJsPlugin({ sourceMap: true }),
      new CleanWebpackPlugin(),
-     new HtmlWebpackPlugin({
+     new HtmlWebpackPlugin({,
        title: 'T-angle',
        template: './src/Index.html',
        inject: 'body'
