@@ -29,6 +29,10 @@ _email.com_
 
 _HTML5, CSS, Javascript, Babel, Jest, Webpack, npm_
 
+## Specs
+
+_1. Jest completes units with 100% coverage_
+
 ### License
 
 MIT License
