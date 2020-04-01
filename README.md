@@ -6,7 +6,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_A previous project I did aa year ago. Now I'm adding applications of testing and Jest._
 
 ## Setup/Installation Requirements
 
@@ -32,6 +32,8 @@ _HTML5, CSS, Javascript, Babel, Jest, Webpack, npm_
 ## Specs
 
 _1. Jest completes units with 100% coverage_
+
+_2. Block and After statements function_
 
 ### License
 
