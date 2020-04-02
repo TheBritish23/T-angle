@@ -2,10 +2,6 @@ import { Triangle } from './../src/triangle.js';
 
 describe('Triangle', () => {
 
-Triangle.prototype.checkType = function() {
-  return "not a triangle";
-};
-
   test('should correctly create a triangle object with three lengths', () => {
     var triangle = new Triangle(2,4,5);
     var scalTriangle = new Triangle(4,5,7)
