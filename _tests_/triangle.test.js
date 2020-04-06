@@ -11,6 +11,6 @@ describe('Triangle', () => {
     expect(triangle.side3).toEqual(5);
     expect(value1).toEqual(value2);
     expect(scalTriangle.checkType()).toEqual("scalene triangle");
-   debugger;
+    debugger;
   });
 });
