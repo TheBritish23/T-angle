@@ -10,7 +10,7 @@ $(document).ready(function() {
     var angleThree = parseInt($("input#angle-three").val());
     var sum = angleOne+angleTwo+angleThree;
     console.log(sum)
-    if ((sum == 180)&&((angleOne!=0)&&(angleTwo!=0)&&(angleThree!=0))){
+    if ((angleOne!=0)&&(angleTwo!=0)&&(angleThree!=0)){
      if ((angleOne==angleTwo)&&(angleTwo==angleThree)){
        console.log('equilateral');
      }
