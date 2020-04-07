@@ -1,4 +1,4 @@
-import { Triangle } from './../src/triangle.js';
+import { Triangle } from './../src/triangle-logic.js';
 
 describe('Triangle', () => {
 
