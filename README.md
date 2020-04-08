@@ -35,6 +35,8 @@ _1. Jest completes units with 100% coverage_
 
 _2. Block and After statements function_
 
+_3. Import and Export functions work_
+
 ### License
 
 MIT License
